@@ -151,4 +151,4 @@ while True:
 	pygame.display.flip()
 	showScore()
 	pygame.display.flip()
-	fpsController.tick(15)
+	fpsController.tick(10+score)
